@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>User Dashboard</h1>
+<p>Select a planner to create a personalized budget recommendation.</p>
+<div class="grid three">
+<a class="card link-card" href="/planner/home"><h3>Home Planner</h3><p>Interior & decor.</p></a>
+<a class="card link-card" href="/planner/party"><h3>Party Planner</h3><p>Food, venue & decor.</p></a>
+<a class="card link-card" href="/planner/jewelry"><h3>Jewelry Planner</h3><p>Occasion & outfit matching.</p></a>
+</div>
+{% endblock %}
